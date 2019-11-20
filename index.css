@@ -1,0 +1,94 @@
+@media(min-width:1200px)
+{
+    @font-face {
+        font-family: "Tiempos Headline";
+        src: url("TiemposHeadline-Semibold.woff");
+    }
+    @font-face {
+        font-family: "Roboto Regular";
+        src: url("roboto.regular.ttf");
+    }
+    @font-face {
+        font-family: "Roboto Bold";
+        src: url("roboto.bold.ttf");
+    }
+    section {
+        display: inline;
+        position: relative;
+    }
+    section .title .our-therapies {
+        font-family: 'Tiempos Headline';
+        font-size: 32px;
+        text-align: center;
+        line-height: 28;
+    }
+    section .title .aerocare {
+        font-family: 'Roboto Regular';
+        font-size: 18px;
+        text-align: center;  
+    }
+    section .doctor-smiling {
+        background-image: url('./assets/images/doctor-smiling-e1479990735873/doctor-smiling-e1479990735873.png');
+        width: 656px;
+        height: 658px;
+        /* margin-left: 70px; */
+    }
+    section .pattern{
+        margin-top: 40px;
+    }
+    section .pattern .sleep {
+        background-image: url('./assets/images/oxygen.svg');
+        background-repeat: no-repeat;
+        margin-left: 43px;
+        width: 37px;
+        height: 42px;
+        padding: 0px;
+    }
+    section .pattern .lungs {
+        background-image: url('./assets/images/lungs.svg');
+        background-repeat: no-repeat;
+        margin-left: 43px;
+        width: 32px;
+        height: 34px;
+        padding: 0px;
+    }
+    section .pattern .oxygen {
+        background-image: url('./assets/images/oxygen.svg');
+        background-repeat: no-repeat;
+        margin-left: 43px;
+        width: 37px;
+        height: 42px;
+        padding: 0px;
+    }
+    section .pattern .oxygen-mask {
+        background-image: url('./assets/images/oxygen-mask\ \(1\).svg');
+        background-repeat: no-repeat;
+        margin-left: 43px;
+        width: 32px;
+        height: 32px;
+        padding: 0px;
+    }
+    
+    section .pattern .pattern-text {
+        font-size: 22px;
+        height: 25px;
+        font-family: 'Roboto Bold';
+    }
+    section .pattern .pattern-subtext {
+        font-size: 16px;
+        max-width: 360px;
+        margin-top: 11px;
+    }
+    section .pattern .pattern-row {
+        margin-top: 55px;
+    }
+    section .pattern .learn-more-wrapper {
+        background: transparent linear-gradient(270deg, #FFC64A 0%, #FFAD71 100%) 0% 0% no-repeat;
+        padding: 16px 32px 15px 35px;
+        margin-left: 91px;
+        margin-top: 32px;
+    }
+    section .pattern .learn-more {
+        font-weight: bold;
+    }
+}
